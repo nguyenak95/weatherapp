@@ -1,0 +1,40 @@
+html,
+body {
+  background-color: #f3f3f3;
+}
+
+.card,
+.card_city {
+  margin: 2rem 1rem;
+  padding: 5px 30px;
+  width: 290px;
+  height: 470px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: 1px 2px 10px rgba(63, 53, 53, 0.2);
+  flex: 0 0 25%;
+}
+.card_city {
+  height: 550px;
+}
+
+.card-name {
+  color: #666;
+  font-weight: 300;
+  line-height: 0.2em;
+}
+
+span {
+  margin-left: 24px;
+  color: #999;
+  font-weight: 300;
+  display: block;
+}
+
+span span {
+  margin-left: 0;
+}
+
+.dot {
+  font-size: 0.9em;
+}
